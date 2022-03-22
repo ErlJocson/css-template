@@ -1,13 +1,13 @@
 import React from "react";
-import Container from "./components/Container";
+import Container from "./components/Container.js";
 import Header from "./components/Header.js";
 
-function Home() {
+function Box() {
   return (
     <Container>
-      <Header>Main page</Header>
+      <Header>Box</Header>
     </Container>
   );
 }
 
-export default Home;
+export default Box;

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function Header(props) {
-  return <Heading>{props.children}</Heading>;
+  return <Heading className="shadow">{props.children}</Heading>;
 }
 
 export default Header;

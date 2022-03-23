@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 function Section(props) {
-  return <Sections>{props.children}</Sections>;
+  return <Sections className="light-shadow">{props.children}</Sections>;
 }
 
 export default Section;

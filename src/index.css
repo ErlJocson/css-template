@@ -1,3 +1,11 @@
+:root {
+  --dark-color: rgb(38, 38, 38);
+  --light-color: rgb(216, 216, 216);
+  --shadow: 0 2px 6px rgb(118, 118, 118);
+  --light-shadow: 0 2px 6px var(--light-color);
+  --dark-shadow: 0 2px 6px var(--dark-color);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +24,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.light-shadow {
+  box-shadow: var(--light-shadow);
+}
+
+.dark-shadow {
+  box-shadow: var(--dark-shadow);
 }

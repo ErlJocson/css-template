@@ -10,5 +10,5 @@ export default Container;
 const MyContainer = styled.div`
   margin-left: 250px;
   width: calc(100% - 250px);
-  min-height: 100vh;
+  min-height: calc(100vh - 10px);
 `;

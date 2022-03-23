@@ -2,7 +2,9 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import NavigationBar from "./components/Navigation.js";
 import Home from "./components/pages/Home.js";
 import Cards from "./components/pages/Cards.js";
-import Box from "./components/pages/Box.js";
+import Container from "./components/pages/Container.js";
+import Shadow from "./components/pages/Shadow.js";
+import Button from "./components/pages/Button.js";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Routes>
           <Route exactly element={<Home />} path="/" />
           <Route element={<Cards />} path="/cards" />
-          <Route element={<Box />} path="/box" />
+          <Route element={<Container />} path="/container" />
+          <Route element={<Shadow />} path="/shadow" />
+          <Route element={<Button />} path="/button" />
         </Routes>
       </Router>
     </>

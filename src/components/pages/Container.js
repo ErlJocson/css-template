@@ -5,7 +5,7 @@ import Header from "./components/Header.js";
 function Box() {
   return (
     <Container>
-      <Header>Box</Header>
+      <Header>Container</Header>
     </Container>
   );
 }

@@ -1,6 +1,7 @@
 import Container from "./components/Container.js";
 import Header from "./components/Header.js";
 import Sections from "./components/Section.js";
+import CodeContainer from "./components/CodeContainer.js";
 
 import styled from "styled-components";
 
@@ -22,7 +23,18 @@ function Shadow() {
             <SampleCard className="dark-shadow">Dark shadow</SampleCard>
           </CardDemo>
         </Sections>
-        <Sections></Sections>
+        <Sections>
+          <p>
+            Download the css file and set the class of your &lt;div&gt; like
+            following:
+          </p>
+          <CodeContainer>
+            <pre>&lt;div class="shadow"&gt; With Shadow&lt;/div&gt;</pre>
+            <pre>&lt;div class="light-shadow"&gt; With Shadow&lt;/div&gt;</pre>
+            <pre>&lt;div class="dark-shadow"&gt; With Shadow&lt;/div&gt;</pre>
+          </CodeContainer>
+          <p>to add shadows to you project.</p>
+        </Sections>
       </main>
     </Container>
   );

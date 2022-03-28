@@ -7,7 +7,6 @@ function Navigation() {
     <>
       <NavigationBar>
         <TitleLink to="/">Home</TitleLink>
-        <MyLink to="/container">Container</MyLink>
         <MyLink to="/cards">Cards</MyLink>
         <MyLink to="/shadow">Shadow</MyLink>
         <MyLink to="/button">Button</MyLink>

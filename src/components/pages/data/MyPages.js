@@ -5,11 +5,6 @@ const pages = [
     link: "#",
   },
   {
-    title: "Containers",
-    paragraph: "Use this code snippets for building containers",
-    link: "#",
-  },
-  {
     title: "Cards",
     paragraph: "Use this code snippets for building simple cards",
     link: "#",

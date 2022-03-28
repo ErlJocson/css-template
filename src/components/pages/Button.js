@@ -50,6 +50,9 @@ function Button() {
             <a className="btn-danger">btn-danger</a>
           </ButtonDemo>
         </Sections>
+        <Sections>
+          Download the css file <a href="#">here!</a>
+        </Sections>
       </main>
     </Container>
   );

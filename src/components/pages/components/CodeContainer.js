@@ -8,7 +8,7 @@ function CodeContainer(props) {
 export default CodeContainer;
 
 const Code = styled.div`
-  width: 70%;
+  width: 700px;
   margin: 10px auto;
   border: 1px solid black;
   padding: 10px;

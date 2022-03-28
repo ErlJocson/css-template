@@ -35,6 +35,9 @@ function Shadow() {
           </CodeContainer>
           <p>to add shadows to you project.</p>
         </Sections>
+        <Sections>
+          Download the css file <a href="#">here!</a>
+        </Sections>
       </main>
     </Container>
   );

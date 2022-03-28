@@ -4,6 +4,9 @@
   --shadow: 0 2px 6px rgb(118, 118, 118);
   --light-shadow: 0 2px 6px var(--light-color);
   --dark-shadow: 0 2px 6px var(--dark-color);
+
+  --blue-color: rgb(112, 148, 204);
+  --red-color: rgb(204, 112, 140);
 }
 
 * {
@@ -26,6 +29,8 @@ code {
     monospace;
 }
 
+/* shadow style */
+
 .shadow {
   box-shadow: var(--shadow);
 }
@@ -36,4 +41,38 @@ code {
 
 .dark-shadow {
   box-shadow: var(--dark-shadow);
+}
+
+/* button style */
+
+.btn-success {
+  padding: 10px;
+  font-size: 16px;
+  background: var(--blue-color);
+  cursor: pointer;
+  color: rgb(203, 203, 203);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+.btn-danger {
+  padding: 10px;
+  font-size: 16px;
+  background: var(--red-color);
+  cursor: pointer;
+  color: rgb(203, 203, 203);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+
+.btn-danger:hover {
+  color: black;
+}
+
+.btn-success:hover {
+  color: black;
 }

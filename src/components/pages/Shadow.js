@@ -12,8 +12,8 @@ function Shadow() {
       <main>
         <Sections>
           <p>
-            To add shadows, set class equal to shadow , light-shadow, or
-            dark-shadow
+            To add shadows, set class equal to "shadow" , "light-shadow", or
+            "dark-shadow".
           </p>
         </Sections>
         <Sections>
@@ -25,7 +25,7 @@ function Shadow() {
         </Sections>
         <Sections>
           <p>
-            Download the css file and set the class of your &lt;div&gt; like
+            Download the css file and set the class of your &lt;div&gt; like the
             following:
           </p>
           <CodeContainer>

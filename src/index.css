@@ -76,3 +76,68 @@ code {
 .btn-success:hover {
   color: black;
 }
+
+/*  */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jc-center {
+  justify-content: center;
+}
+/* card designs */
+
+.card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* card contents */
+
+.card-header {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 5px 8px 0;
+  border-bottom: 1px solid gray;
+}
+
+.details {
+  margin: 6px;
+}
+
+.details a {
+  color: rgb(0, 6, 175);
+  text-decoration: none;
+}
+
+/* responsive designs */
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 150px;
+  }
+
+  .card-header {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 120px;
+  }
+
+  .card-header {
+    font-size: 20px;
+  }
+
+  .details * {
+    font-size: 14px;
+  }
+}

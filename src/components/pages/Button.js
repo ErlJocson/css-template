@@ -51,7 +51,7 @@ function Button() {
           </ButtonDemo>
         </Sections>
         <Sections>
-          Download the css file
+          Copy the code
           <a href="https://github.com/ErlJocson/Code-Snippets/tree/main/Button/button.css">
             here!
           </a>

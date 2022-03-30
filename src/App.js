@@ -11,7 +11,7 @@ function App() {
       <Router>
         <NavigationBar />
         <Routes>
-          <Route exactly element={<Home />} path="/" />
+          <Route element={<Home />} path="/css-template" />
           <Route element={<Cards />} path="/cards" />
           <Route element={<Shadow />} path="/shadow" />
           <Route element={<Button />} path="/button" />

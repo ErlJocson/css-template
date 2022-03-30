@@ -8,7 +8,7 @@ function Navigation() {
     <>
       <NavigationBar show={isShow}>
         <NavigationContents>
-          <TitleLink to="/">Home</TitleLink>
+          <TitleLink to="/css-template">Home</TitleLink>
           <MyLink to="/cards">Cards</MyLink>
           <MyLink to="/shadow">Shadow</MyLink>
           <MyLink to="/button">Button</MyLink>
@@ -27,7 +27,7 @@ function Navigation() {
             onClick={() => {
               toggle(!isShow);
             }}
-            to="/"
+            to="/css-template"
           >
             Home
           </TitleLink>

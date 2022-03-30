@@ -12,4 +12,12 @@ const Code = styled.div`
   margin: 10px auto;
   border: 1px solid black;
   padding: 10px;
+  @media screen and (max-width: 1020px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 850px) {
+    width: 80%;
+    overflow: scroll;
+  }
 `;

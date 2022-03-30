@@ -6,7 +6,7 @@ function Navigation() {
   const [isShow, toggle] = useState(false);
   return (
     <>
-      <NavigationBar>
+      <NavigationBar show={isShow}>
         <NavigationContents>
           <TitleLink to="/">Home</TitleLink>
           <MyLink to="/cards">Cards</MyLink>
@@ -23,10 +23,38 @@ function Navigation() {
           <Lines />
         </MenuIcon>
         <BurgerNav show={isShow}>
-          <TitleLink to="/">Home</TitleLink>
-          <MyLink to="/cards">Cards</MyLink>
-          <MyLink to="/shadow">Shadow</MyLink>
-          <MyLink to="/button">Button</MyLink>
+          <TitleLink
+            onClick={() => {
+              toggle(!isShow);
+            }}
+            to="/"
+          >
+            Home
+          </TitleLink>
+          <MyLink
+            onClick={() => {
+              toggle(!isShow);
+            }}
+            to="/cards"
+          >
+            Cards
+          </MyLink>
+          <MyLink
+            onClick={() => {
+              toggle(!isShow);
+            }}
+            to="/shadow"
+          >
+            Shadow
+          </MyLink>
+          <MyLink
+            onClick={() => {
+              toggle(!isShow);
+            }}
+            to="/button"
+          >
+            Button
+          </MyLink>
         </BurgerNav>
       </NavigationBar>
     </>
@@ -37,11 +65,11 @@ export default Navigation;
 
 const MenuIcon = styled.div`
   display: none;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 720px) {
     width: 100%;
     display: flex;
-    align-items: center;
     margin-top: 16px;
+    margin-left: 20px;
     flex-direction: column;
     cursor: pointer;
   }
@@ -82,8 +110,8 @@ const NavigationBar = styled.nav`
   left: 0;
   width: 250px;
 
-  @media screen and (max-width: 600px) {
-    width: ${(props) => (props.show ? "250px" : "50px")};
+  @media screen and (max-width: 720px) {
+    width: ${(props) => (props.show ? "200px" : "70px")};
   }
 `;
 
@@ -91,7 +119,7 @@ const NavigationContents = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 720px) {
     & {
       display: none;
     }

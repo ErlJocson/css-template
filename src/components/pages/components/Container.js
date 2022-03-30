@@ -13,7 +13,7 @@ const MyContainer = styled.div`
   min-height: calc(100vh - 10px);
 
   @media screen and (max-width: 720px) {
-    margin-left: 70px;
-    width: calc(100% - 70px);
+    margin-left: 40px;
+    width: calc(100% - 40px);
   }
 `;

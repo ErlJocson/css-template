@@ -68,18 +68,18 @@ const MenuIcon = styled.div`
   @media screen and (max-width: 720px) {
     width: 100%;
     display: flex;
-    margin-top: 16px;
-    margin-left: 20px;
     flex-direction: column;
     cursor: pointer;
+    margin-left: 10px;
+    margin-top: 20px;
   }
 `;
 
 const Lines = styled.div`
-  height: 5px;
+  height: 2px;
   margin: 2px 0;
   background-color: black;
-  width: 30px;
+  width: 20px;
   border-radius: 10px;
 `;
 
@@ -111,7 +111,7 @@ const NavigationBar = styled.nav`
   width: 250px;
 
   @media screen and (max-width: 720px) {
-    width: ${(props) => (props.show ? "200px" : "70px")};
+    width: ${(props) => (props.show ? "200px" : "40px")};
   }
 `;
 

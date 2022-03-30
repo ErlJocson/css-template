@@ -15,4 +15,9 @@ const Heading = styled.h1`
   letter-spacing: 1.5px;
   text-align: center;
   background-color: rgb(113, 149, 196);
+  @media screen and (max-width: 720px) {
+    & {
+      font-size: 18px;
+    }
+  }
 `;

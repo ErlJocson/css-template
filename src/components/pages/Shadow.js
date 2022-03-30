@@ -25,7 +25,7 @@ function Shadow() {
         </Sections>
         <Sections>
           <p>
-            Download the css file and set the class of your &lt;div&gt; like the
+            Copy the CSS code and set the class of your &lt;div&gt; like the
             following:
           </p>
           <CodeContainer>

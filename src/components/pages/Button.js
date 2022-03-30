@@ -24,8 +24,8 @@ function Button() {
         </Sections>
         <Sections>
           <p>
-            Download the css file and set the class of your &lt;button&gt; like
-            the following:
+            Copy the CSS code and set the class of your &lt;button&gt; like the
+            following:
           </p>
           <CodeContainer>
             <pre>

@@ -38,7 +38,7 @@ function Cards() {
           </div>
         </Sections>
         <Sections>
-          <p>Download the css file and use this template</p>
+          <p>Copy the CSS code and use this template:</p>
           <CodeContainer>
             <pre>
               &lt;div class="card-container"&gt;

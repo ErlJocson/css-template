@@ -25,7 +25,7 @@ function Shadow() {
         </Sections>
         <Sections>
           <p>
-            Copy the CSS code and set the class of your &lt;div&gt; like the
+            Download the CSS code and set the class of your &lt;div&gt; like the
             following:
           </p>
           <CodeContainer>
@@ -36,7 +36,7 @@ function Shadow() {
           <p>to add shadows to you project.</p>
         </Sections>
         <Sections>
-          Copy the code
+          Download the code
           <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>

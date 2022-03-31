@@ -38,7 +38,7 @@ function Cards() {
           </div>
         </Sections>
         <Sections>
-          <p>Copy the CSS code and use this template:</p>
+          <p>Download the CSS code and use this template:</p>
           <CodeContainer>
             <pre>
               &lt;div class="card-container"&gt;
@@ -148,7 +148,7 @@ function Cards() {
           </div>
         </Sections>
         <Sections>
-          Copy the code
+          Download the code
           <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>

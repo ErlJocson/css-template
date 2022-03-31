@@ -24,8 +24,8 @@ function Button() {
         </Sections>
         <Sections>
           <p>
-            Copy the CSS code and set the class of your &lt;button&gt; like the
-            following:
+            Download the CSS code and set the class of your &lt;button&gt; like
+            the following:
           </p>
           <CodeContainer>
             <pre>
@@ -51,7 +51,7 @@ function Button() {
           </ButtonDemo>
         </Sections>
         <Sections>
-          Copy the code
+          Download the code
           <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>

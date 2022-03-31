@@ -37,9 +37,7 @@ function Shadow() {
         </Sections>
         <Sections>
           Copy the code
-          <a href="https://github.com/ErlJocson/Code-Snippets/tree/main/shadow/shadow.css">
-            here!
-          </a>
+          <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>
     </Container>

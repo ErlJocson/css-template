@@ -149,9 +149,7 @@ function Cards() {
         </Sections>
         <Sections>
           Copy the code
-          <a href="https://github.com/ErlJocson/Code-Snippets/tree/main/Card/card.css">
-            here!
-          </a>
+          <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>
     </Container>

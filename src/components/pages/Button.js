@@ -52,9 +52,7 @@ function Button() {
         </Sections>
         <Sections>
           Copy the code
-          <a href="https://github.com/ErlJocson/Code-Snippets/tree/main/Button/button.css">
-            here!
-          </a>
+          <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
         </Sections>
       </main>
     </Container>

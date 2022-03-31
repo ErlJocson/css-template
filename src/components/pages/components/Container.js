@@ -8,8 +8,8 @@ function Container(props) {
 export default Container;
 
 const MyContainer = styled.div`
-  margin-left: 250px;
-  width: calc(100% - 250px);
+  margin-left: 200px;
+  width: calc(100% - 200px);
   min-height: calc(100vh - 10px);
 
   @media screen and (max-width: 720px) {

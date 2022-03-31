@@ -1,29 +1,45 @@
 import React from "react";
+import styled from "styled-components";
 
 import Container from "./components/Container";
 import Header from "./components/Header.js";
 import Sections from "./components/Section.js";
-import pages from "./data/MyPages.js";
 
 function Home() {
   return (
     <Container>
       <Header>Basic CSS Templates</Header>
       <main>
-        {pages.map((page, i) => {
-          return (
-            <Sections key={i}>
-              <h1>{page.title}</h1>
-              <p>{page.paragraph}</p>
-              <a href={page.link} target={"_blank"}>
-                View source code
-              </a>
-            </Sections>
-          );
-        })}
+        <Sections>
+          <p>
+            This is my personal css template. Use this to quickly develop your
+            websites.
+          </p>
+        </Sections>
+        <List className="light-shadow">
+          <h3>The code includes</h3>
+          <ul>
+            <li>Cards</li>
+            <li>Shadow</li>
+            <li>Button</li>
+          </ul>
+        </List>
       </main>
     </Container>
   );
 }
 
 export default Home;
+
+const List = styled.div`
+  margin: 15px 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  ul {
+    margin: 10px;
+    li {
+      margin: 10px;
+    }
+  }
+`;

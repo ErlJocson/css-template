@@ -90,6 +90,7 @@ const MyLink = styled(Link)`
   padding: 10px;
   transition: all 500ms ease;
   letter-spacing: 2px;
+  text-transform: uppercase;
   &:hover {
     background-color: rgb(76, 76, 95);
     border-radius: 10px;
@@ -99,7 +100,6 @@ const MyLink = styled(Link)`
 const TitleLink = styled(MyLink)`
   font-size: 20px;
   font-weight: bold;
-  text-transform: uppercase;
 `;
 
 const NavigationBar = styled.nav`
@@ -108,8 +108,7 @@ const NavigationBar = styled.nav`
   top: 0;
   bottom: 0;
   left: 0;
-  width: 250px;
-
+  width: 200px;
   @media screen and (max-width: 720px) {
     width: ${(props) => (props.show ? "200px" : "40px")};
   }

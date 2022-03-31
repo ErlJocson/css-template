@@ -46,7 +46,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 1&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>
@@ -56,7 +57,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 2&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>
@@ -66,7 +68,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 3&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>
@@ -85,7 +88,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 1&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>
@@ -95,7 +99,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 2&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>
@@ -105,7 +110,8 @@ function Cards() {
                 &lt;div class="card"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 3&lt;/div&gt;</pre>
                 <pre>
-                  &lt;div class="details"&gt;some details
+                  &lt;div class="details"&gt;
+                  <pre>&lt;p&gt; some details &lt;/p&gt;</pre>
                   <pre>&lt;a href="#"&gt;Link&lt;/a&gt;</pre>
                   &lt;/div&gt;
                 </pre>

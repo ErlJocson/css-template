@@ -15,7 +15,9 @@ function Home() {
             <Sections key={i}>
               <h1>{page.title}</h1>
               <p>{page.paragraph}</p>
-              <a href={page.link}>View source code</a>
+              <a href={page.link} target={"_blank"}>
+                View source code
+              </a>
             </Sections>
           );
         })}

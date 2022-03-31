@@ -149,7 +149,12 @@ function Cards() {
         </Sections>
         <Sections>
           Download the code
-          <a href="https://github.com/ErlJocson/Code-Snippets"> here!</a>
+          <a
+            href="https://github.com/ErlJocson/Code-Snippets"
+            target={"_blank"}
+          >
+            here!
+          </a>
         </Sections>
       </main>
     </Container>

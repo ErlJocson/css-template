@@ -58,6 +58,12 @@ const SampleCard = styled.div`
   margin: 20px;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 720px) {
+    margin: 5px;
+    font-size: 12px;
+    height: 60px;
+  }
 `;
 
 const CardDemo = styled.div`

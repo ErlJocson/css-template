@@ -8,6 +8,17 @@ function Container(props) {
 export default Container;
 
 const MyContainer = styled.div`
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  animation: slidein 1s;
   margin-left: 200px;
   width: calc(100% - 200px);
   min-height: calc(100vh - 10px);

@@ -120,10 +120,6 @@ const NavigationBar = styled.nav`
   width: 200px;
   @media screen and (max-width: 720px) {
     width: ${(props) => (props.show ? "100%" : "40px")};
-    background-color: ${(props) =>
-      props.show
-        ? "rgba(79, 79, 248, 0.8)"
-        : "background-color: rgb(79, 79, 248);"};
   }
 `;
 
@@ -145,4 +141,6 @@ const BurgerNav = styled(NavigationContents)`
   top: 0;
   bottom: 0;
   left: 0;
+  right: 0;
+  text-align: center;
 `;

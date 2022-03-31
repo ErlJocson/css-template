@@ -12,12 +12,12 @@ function Home() {
       <main>
         <Sections>
           <p>
-            This is my personal css template. Use this to quickly develop your
-            websites.
+            This is my personal css template. Try to use this to quickly develop
+            your websites.
           </p>
         </Sections>
         <List className="light-shadow">
-          <h3>The code includes</h3>
+          <h3>The CSS template includes:</h3>
           <ul>
             <li>Cards</li>
             <li>Shadow</li>

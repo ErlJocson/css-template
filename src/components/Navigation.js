@@ -23,6 +23,15 @@ function Navigation() {
           <Lines />
         </MenuIcon>
         <BurgerNav show={isShow}>
+          <MenuIcon
+            onClick={() => {
+              toggle(!isShow);
+            }}
+          >
+            <Lines />
+            <Lines />
+            <Lines />
+          </MenuIcon>
           <TitleLink
             onClick={() => {
               toggle(!isShow);
@@ -110,7 +119,11 @@ const NavigationBar = styled.nav`
   left: 0;
   width: 200px;
   @media screen and (max-width: 720px) {
-    width: ${(props) => (props.show ? "200px" : "40px")};
+    width: ${(props) => (props.show ? "100%" : "40px")};
+    background-color: ${(props) =>
+      props.show
+        ? "rgba(79, 79, 248, 0.8)"
+        : "background-color: rgb(79, 79, 248);"};
   }
 `;
 
@@ -126,5 +139,10 @@ const NavigationContents = styled.div`
 `;
 
 const BurgerNav = styled(NavigationContents)`
+  background-color: rgb(79, 79, 248);
   display: ${(props) => (props.show ? "flex" : "none")};
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
 `;

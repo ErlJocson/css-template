@@ -7,6 +7,8 @@
 
   --blue-color: rgb(112, 148, 204);
   --red-color: rgb(204, 112, 140);
+  --gray-color: rgb(128, 128, 128);
+  --black-color: rgb(0, 0, 0);
 }
 
 * {
@@ -22,6 +24,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.bg-red {
+  background-color: var(--red-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.bg-black {
+  background-color: var(--black-color);
 }
 
 .card-container {
@@ -40,7 +58,6 @@ body {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: var(--blue-color);
 }
 
 /* card contents */

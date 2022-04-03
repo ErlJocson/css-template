@@ -51,7 +51,7 @@ function Button() {
           </ButtonDemo>
         </Sections>
         <Sections>
-          Download the code
+          Download the code{" "}
           <a
             href="https://github.com/ErlJocson/Code-Snippets"
             target={"_blank"}

@@ -14,21 +14,21 @@ function Cards() {
         </Sections>
         <Sections>
           <div className="card-container">
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 1</div>
               <div className="details">
                 <p>Sample details of card</p>
                 <a href="#">Link</a>
               </div>
             </div>
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 2</div>
               <div className="details">
                 <p>Sample details of card</p>
                 <a href="#">Link</a>
               </div>
             </div>
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 3</div>
               <div className="details">
                 <p>Sample details of card</p>
@@ -43,7 +43,7 @@ function Cards() {
             <pre>
               &lt;div class="card-container"&gt;
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 1&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -54,7 +54,7 @@ function Cards() {
                 &lt;/div&gt;
               </pre>
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 2&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -65,7 +65,7 @@ function Cards() {
                 &lt;/div&gt;
               </pre>
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 3&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -85,7 +85,7 @@ function Cards() {
             <pre>
               &lt;div class="card-container jc-center"&gt;
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 1&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -96,7 +96,7 @@ function Cards() {
                 &lt;/div&gt;
               </pre>
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 2&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -107,7 +107,7 @@ function Cards() {
                 &lt;/div&gt;
               </pre>
               <pre>
-                &lt;div class="card"&gt;
+                &lt;div class="card bg-blue"&gt;
                 <pre>&lt;div class="card-header"&gt;Card 3&lt;/div&gt;</pre>
                 <pre>
                   &lt;div class="details"&gt;
@@ -124,21 +124,21 @@ function Cards() {
         <Sections>
           <p>This is the result after adding "jc-center"</p>
           <div className="card-container jc-center">
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 1</div>
               <div className="details">
                 <p>Sample details of card</p>
                 <a href="#">Link</a>
               </div>
             </div>
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 2</div>
               <div className="details">
                 <p>Sample details of card</p>
                 <a href="#">Link</a>
               </div>
             </div>
-            <div className="card">
+            <div className="card bg-blue">
               <div className="card-header">Card 3</div>
               <div className="details">
                 <p>Sample details of card</p>
@@ -148,7 +148,7 @@ function Cards() {
           </div>
         </Sections>
         <Sections>
-          Download the code
+          Download the code{" "}
           <a
             href="https://github.com/ErlJocson/Code-Snippets"
             target={"_blank"}

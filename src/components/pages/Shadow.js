@@ -36,10 +36,11 @@ function Shadow() {
           <p>to add shadows to you project.</p>
         </Sections>
         <Sections>
-          Download the code
+          Download the code{" "}
           <a
             href="https://github.com/ErlJocson/Code-Snippets"
             target={"_blank"}
+            rel="noreferrer"
           >
             here!
           </a>

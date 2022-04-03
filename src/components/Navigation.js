@@ -9,6 +9,7 @@ function Navigation() {
       <NavigationBar show={isShow}>
         <NavigationContents>
           <TitleLink to="/css-template">Home</TitleLink>
+          <MyLink to="/background-color">Background</MyLink>
           <MyLink to="/cards">Cards</MyLink>
           <MyLink to="/shadow">Shadow</MyLink>
           <MyLink to="/button">Button</MyLink>
@@ -40,6 +41,14 @@ function Navigation() {
           >
             Home
           </TitleLink>
+          <MyLink
+            onClick={() => {
+              toggle(!isShow);
+            }}
+            to="/background-color"
+          >
+            Background
+          </MyLink>
           <MyLink
             onClick={() => {
               toggle(!isShow);
@@ -120,6 +129,7 @@ const NavigationBar = styled.nav`
   width: 200px;
   @media screen and (max-width: 720px) {
     width: ${(props) => (props.show ? "100%" : "40px")};
+    z-index: 1;
   }
 `;
 

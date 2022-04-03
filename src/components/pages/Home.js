@@ -19,11 +19,24 @@ function Home() {
         <List className="light-shadow">
           <h3>The CSS template includes:</h3>
           <ul>
+            <li>Background Color</li>
             <li>Cards</li>
             <li>Shadow</li>
             <li>Button</li>
           </ul>
         </List>
+        <Sections>
+          <p>
+            Clone the github repository{" "}
+            <a
+              href="https://github.com/ErlJocson/Code-Snippets"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              here.
+            </a>
+          </p>
+        </Sections>
       </main>
     </Container>
   );

@@ -24,15 +24,6 @@ function Navigation() {
           <Lines />
         </MenuIcon>
         <BurgerNav show={isShow}>
-          <MenuIcon
-            onClick={() => {
-              toggle(!isShow);
-            }}
-          >
-            <Lines />
-            <Lines />
-            <Lines />
-          </MenuIcon>
           <TitleLink
             onClick={() => {
               toggle(!isShow);
@@ -145,6 +136,15 @@ const NavigationContents = styled.div`
 `;
 
 const BurgerNav = styled(NavigationContents)`
+  @keyframes showNav {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  animation: showNav 500ms;
   background-color: rgb(79, 79, 248);
   display: ${(props) => (props.show ? "flex" : "none")};
   position: absolute;

@@ -1,10 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import NavigationBar from "./components/Navigation.js";
-import Home from "./components/pages/Home.js";
-import Cards from "./components/pages/Cards.js";
-import Shadow from "./components/pages/Shadow.js";
-import Button from "./components/pages/Button.js";
-import Background from "./components/pages/Background.js";
+import NavigationBar from "./components/Navigation";
+import { Home, Cards, Shadow, Button, Background } from "./components/Pages";
 
 function App() {
   return (

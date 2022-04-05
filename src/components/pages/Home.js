@@ -29,7 +29,7 @@ function Home() {
           <p>
             Clone the github repository{" "}
             <a
-              href="https://github.com/ErlJocson/Code-Snippets"
+              href="https://github.com/ErlJocson/CSS-Templates"
               target={"_blank"}
               rel="noreferrer"
             >

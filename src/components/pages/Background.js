@@ -23,7 +23,7 @@ function Background() {
           <p>
             Download the code{" "}
             <a
-              href="https://github.com/ErlJocson/Code-Snippets"
+              href="https://github.com/ErlJocson/CSS-Templates"
               target={"_blank"}
             >
               here.
